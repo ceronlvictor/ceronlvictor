@@ -9,7 +9,7 @@ html{
 main{
     width: 100%;
     height: 1000px;
-    border: 20px solid rgb(6, 82, 105);
+    border: 0.2rem solid rgb(6, 82, 105);
     padding: 20px 35px;
 }
 .main-nav_item{
@@ -17,19 +17,20 @@ main{
 
 }
 .main-nav_item a:hover{
-    color: blue;
+    color: rgb(65, 101, 102);
 }
 .main-nav_item a:active{
     color:black;
 }
+/* Linea al final de la barra de menu */
 
-.main-nav_item a::after{
+/* .main-nav_item a::after{
     content: " | ";
-}
+} */
 .main-nav_item a {
     color: blanchedalmond;
     font-size: 2rem;
-    padding: 5px;
+    padding: 0.8rem;
     border-radius: 2px;
     text-decoration: none;
 }
@@ -37,14 +38,15 @@ main{
     margin-top: 0;
     list-style: none;
     padding-left: 0;
-    background-color: #13a4a4;
+    background-color: #000000;
 }
 .title-v{
-    font-size: 70px;
+    font-size: 3rem;
     color:rgb(0, 0, 0);
     text-align: center;
 }
 p{
     font-size: 1.6rem;
-    color: salmon;
+    color: rgb(0, 0, 0);
+    text-align: justify;
 }
