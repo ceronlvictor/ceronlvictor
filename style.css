@@ -10,7 +10,7 @@ html{
 header{
     background-color: rgb(29,29,31);
     height: 4rem;
-    border-bottom: 0.2rem solid rgb(6, 82, 105);
+    border-bottom: 0.15rem solid rgb(6, 82, 105);
 }
 .nav{
     list-style: none;
@@ -40,7 +40,21 @@ section{
 }
 #uno{
     background-color: rgb(55, 55, 56);
-    height: 30vh;
+    height: 20vh;
+}
+.title-v{
+    text-align: center;
+    font-size: 3.5rem;
+    color: white;
+    padding-top: 1rem;
+}
+.descript-v{
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 #dos{
     background-color: white;
