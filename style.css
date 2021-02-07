@@ -8,51 +8,61 @@ html{
     font-size: 62.5%;
 }
 header{
-    background-color: crimson;
-    height: 5rem;
+    background-color: rgb(29,29,31);
+    height: 4rem;
+    border-bottom: 0.2rem solid rgb(6, 82, 105);
 }
 .nav{
     list-style: none;
+    color: blanchedalmond;
     text-align: right;
+    padding-top: 1rem;
     padding-right: 2rem;
 }
 header h1{
     position: absolute;
+    color: blanchedalmond;
     left: 0;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 .nav li{
     display: inline-block;
     font-size: 2rem;
     padding-left: 1rem;
+    padding-bottom: 1rem;
 }
 main{
     display: flex;
-}
-aside{
-    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    background-color: cyan;
-    width: 30vh;
-    height: 200vh;
-}
-div{
-    background-color: cadetblue;
-    height: 20vh;
-    width: 20vh;
-    padding: 1rem;
-    border: 0.3rem solid blanchedalmond;
-    margin: 1.5rem;
-    border-radius: 1rem;
 }
 section{
-    background-color: darkblue;
     width: 100%;
-    font-size: 1.6rem;
-    /* height: 50vh; */
+}
+#uno{
+    background-color: rgb(55, 55, 56);
+    height: 30vh;
+}
+#dos{
+    background-color: white;
+    height: 90vh;
+}
+#tres{
+    background-color: black;
+    height: 90vh;
+}
+#cuatro{
+    height: 90vh;
+    background-color: white;
+}
+#cinco{
+    height: 90vh;
+    background-color: black;
+}
+#seis{
+    height: 90vh;
+    background-color: white;
 }
 footer{
-    background-color: blueviolet;
+    background-color: rgb(29,29,31);
     height: 20vh;
 }
