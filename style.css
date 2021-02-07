@@ -21,9 +21,10 @@ header{
 }
 header h1{
     position: absolute;
-    color: blanchedalmond;
+    font-family: sans-serif;
+    color: white;
     left: 0;
-    font-size: 3rem;
+    font-size: 2.6rem;
 }
 .nav li{
     display: inline-block;
@@ -35,24 +36,30 @@ main{
     display: flex;
     flex-direction: column;
 }
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: black;
+    padding-top: 1rem;
+}
 section{
     width: 100%;
 }
 #uno{
-    background-color: rgb(55, 55, 56);
-    height: 20vh;
+    background-color:rgb(245, 245, 245);
+    height: 16vh;
 }
 .title-v{
     text-align: center;
-    font-size: 3.5rem;
-    color: white;
-    padding-top: 1rem;
+    font-size: 3.8rem;
+    color: black;
+    padding-top: 0.5rem;
 }
 .descript-v{
     font-size: 1.6rem;
-    color: white;
+    color: black;
     text-align: center;
-    padding-top: 0.5rem;
+    padding-top: 0.2rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -61,20 +68,20 @@ section{
     height: 90vh;
 }
 #tres{
-    background-color: black;
+    background-color: white;
     height: 90vh;
 }
 #cuatro{
     height: 90vh;
-    background-color: white;
+    background-color: darkblue;
 }
 #cinco{
     height: 90vh;
-    background-color: black;
+    background-color: darkcyan;
 }
 #seis{
     height: 90vh;
-    background-color: white;
+    background-color: firebrick;
 }
 footer{
     background-color: rgb(29,29,31);
