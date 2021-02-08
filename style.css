@@ -75,6 +75,13 @@ section{
     padding-left: 1rem;
     padding-right: 1rem;
 }
+#dos-p-ref{
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 #tres{
     background-color: white;
     height: 90vh;
