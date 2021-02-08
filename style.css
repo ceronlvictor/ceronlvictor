@@ -67,6 +67,14 @@ section{
     background-color: white;
     height: 90vh;
 }
+#dos-p{
+    font-size: 1.6rem;
+    color: black;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 #tres{
     background-color: white;
     height: 90vh;
