@@ -14,7 +14,8 @@ header{
 }
 .nav{
     list-style: none;
-    color: blanchedalmond;
+    color: white;
+    /* color: blanchedalmond; */
     text-align: right;
     padding-top: 2rem;
     padding-right: 1.1rem;
@@ -45,13 +46,21 @@ h1{
 section{
     width: 100%;
 }
+p{
+    font-size: 1.6rem;
+    color: black;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 #uno{
     background-color:rgb(245, 245, 245);
-    height: 16vh;
+    height: 18vh;
 }
 .title-v{
     text-align: center;
-    font-size: 3.8rem;
+    font-size: 3rem;
     color: black;
     padding-top: 0.5rem;
 }
@@ -65,7 +74,7 @@ section{
 }
 #dos{
     background-color: white;
-    height: 90vh;
+    height: 30vh;
 }
 #dos-p{
     font-size: 1.6rem;
@@ -83,22 +92,38 @@ section{
     padding-right: 1rem;
 }
 #tres{
-    background-color: white;
-    height: 90vh;
+    background-color: black;
+    height: 30vh;
 }
+#three{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    padding-top: 0.5rem;
+}
+#three-p{
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 #cuatro{
-    height: 90vh;
-    background-color: darkblue;
+    height: 30vh;
+    background-color: white;
 }
+
 #cinco{
-    height: 90vh;
+    height: 30vh;
     background-color: darkcyan;
 }
 #seis{
-    height: 90vh;
+    height: 30vh;
     background-color: firebrick;
 }
 footer{
     background-color: rgb(29,29,31);
-    height: 20vh;
+    height: 50vh;
 }
